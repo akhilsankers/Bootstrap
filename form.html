@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .gray {
+            background-color: rgb(154, 154, 154);
+        }
+    </style>
+    <title>Regestration</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+<style>
+    body {
+        background: linear-gradient(to right, #2f00ff 50%, #ae00ff );
+    }
+</style>
+<body >
+    <div class="container text-left">
+        <div class="  border rounded-4 mt-2 border-4 border-dark " style="width: 700px;">
+            <h3 class=" text-center bg-dark text-white p-2  ;">EVENT REGISTRATION FORM</h3>
+            <div class="p-4">
+            <div class="input-group mb-1">
+                <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                <input type="text" class="form-control  me-3 rounded border-2 border border-dark bg-light">
+                <input type="text" class="form-control bg-light rounded border-2 border border-dark bg-light">
+            </div>
+            <label for="inputName" class="col-sm-2 col-form-label" style="margin-left: 100px; margin-bottom: 20px;">First Name</label>
+            <label for="inputName" class="col-sm-2 col-form-label" style="margin-left: 158px;">LastName</label>
+            <div class="mb-5 row">
+                <label for="inputCompany" class="col-sm-2 col-form-label">Company</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control border-2 border border-dark bg-light" id="inputCompany">
+                </div>
+            </div>
+            <div class="mb-5 row">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control border-2 border border-dark bg-light" id="inputEmail" placeholder="example@email.com">
+                </div>
+            </div>
+            <div class="input-group mb-1">
+                <label for="inputNum" class="col-sm-2 col-form-label">phone</label>
+                 <input type="text" class=" form-control  me-3 rounded border-2 border border-dark bg-light"  id="inputNum" style="width: 30px;"> 
+                <input type="text" class="form-control bg-light rounded border-2 border border-dark bg-light w-50"  id="inputNum">
+            </div>
+            <label for="inputName" class="col-sm-2 col-form-label" style="margin-left: 100px; margin-bottom: 20px;">Area code</label>
+            <label for="inputName" class="col-sm-2 col-form-label" style="margin-left: 25px;">Number</label>
+            <div class="mb-5 row">
+                <label for="inputSub" class="col-sm-2 col-form-label">Subject</label>
+                <div class="col-sm-10">
+                    <select class="form-select bg-light rounded border-2 border border-dark" aria-label="Default select example">
+                        <option selected hidden>Choose Option</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+            </div>
+            <p class="ms-4 fw-bolder">Are you existing coustmer ?</p>
+            <div class="form-check form-check-inline ms-4 ">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                 Yes
+                </label>
+              </div>
+              <div class=" mb-5 form-check-inline">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                 NO
+                </label>
+              </div>
+              <br>
+              <button class="btn btn-danger btn-lg ms-4">Register</button>
+        </div>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
